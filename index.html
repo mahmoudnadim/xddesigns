@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins display=swap" rel="stylesheet">
+  <title>XD DESIGNS</title>
+</head>
+
+<body>
+
+  <nav class='text-center text-3xl'><a href="/ProjectsSimulation/">XD DESIGNS</a></nav>
+  <div class="CP heroContainer">
+    <div class="heroLeft">
+      <p class="heroTitle">Find the Right Design for Your Business</p>
+      <p class="heroDesc">Preview professional web projects and select the style that matches your needs.</p>
+    </div>
+    <div class="heroRight">
+      <img src="./assets/images/heroImg_1.svg" alt="" />
+    </div>
+  </div>
+  <div class="CP main">
+    <p class="sectionTitle">Choose Your Design</p>
+    <div class="designsCards">
+      <div class="designsCard">
+        <div class="cardBlack">
+          <a class="cardBlackBtn" href="">Visit Website <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        <img src="./assets/images/ecommerceDesign.png" alt="">
+      </div>
+      <div class="designsCard">
+        <div class="cardBlack">
+          <a  class="cardBlackBtn"href="">Visit Website <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        <img src="./assets/images/StandartDesign.png" alt="">
+      </div>
+      <div class="designsCard">
+        <div class="cardBlack">
+          <a class="cardBlackBtn" href="">Visit Website <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        <img src="./assets/images/ecommerceDesign.png" alt="">
+      </div>
+    </div>
+  </div>
+
+
+
+  <footer><p class="footerText"></p></footer>
+
+  <script>
+    const year = new Date().getFullYear().toString()
+    document.querySelector(".footerText").innerHTML = `All Rights Reserved ${year} &copy;`
+  </script>
+</body>
+</html>
