@@ -134,7 +134,8 @@ footer{
     font-size: 1.4rem;
   }
   .sectionSubTitle{
-  font-size: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
   .designsCards{
     flex-wrap: wrap;
